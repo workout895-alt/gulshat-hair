@@ -769,50 +769,11 @@
       border-color: var(--emerald);
     }
 
-    /* 2GIS TRUST BAR */
-    .trust-strip {
-      padding: 32px 0;
-      background: var(--emerald);
-      color: #ffffff;
-    }
-
-    .trust-inner {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 20px;
-    }
-
-    .trust-left {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-    }
-
-    .trust-score {
-      font-family: var(--font-serif);
-      font-size: 42px;
-      font-weight: 700;
-      color: #f7e6c4;
-      line-height: 1;
-    }
-
-    .trust-stars {
-      color: #fbbf24;
-      font-size: 15px;
-      letter-spacing: 2px;
-      margin-bottom: 2px;
-    }
-
-    .trust-text {
-      font-size: 14px;
-      color: rgba(255, 255, 255, 0.88);
-    }
-
     /* CONTACTS */
     .contacts {
       padding: 76px 0;
+      background: var(--bg-surface);
+      border-top: 1px solid var(--border-subtle);
     }
 
     .contacts-grid {
@@ -1106,8 +1067,6 @@
       .works-grid { grid-template-columns: 1fr; max-width: 420px; margin: 0 auto; }
       .floating-cta { display: inline-flex; }
       body { padding-bottom: 72px; }
-      .trust-inner { flex-direction: column; text-align: center; }
-      .trust-left { flex-direction: column; }
     }
 
     @media (max-width: 480px) {
@@ -1496,24 +1455,6 @@
         </div>
       </div>
 
-    </div>
-  </section>
-
-  <!-- 2GIS RATING STRIP -->
-  <section class="trust-strip">
-    <div class="container">
-      <div class="trust-inner">
-        <div class="trust-left">
-          <div class="trust-score">5.0</div>
-          <div>
-            <div class="trust-stars">★★★★★</div>
-            <div class="trust-text">Высокая оценка гостей в 2ГИС Астана · Благодарности мастеру Гульшат</div>
-          </div>
-        </div>
-        <a href="https://2gis.kz/astana/firm/70000001118555752/tab/reviews" target="_blank" rel="noopener" class="btn btn-gold">
-          Смотреть отзывы на 2ГИС ↗
-        </a>
-      </div>
     </div>
   </section>
 
